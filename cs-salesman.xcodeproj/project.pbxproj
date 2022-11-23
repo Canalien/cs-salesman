@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF9A0E17292E54D9007DF86A /* SalesmanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A0E16292E54D9007DF86A /* SalesmanListViewModel.swift */; };
+		FF9A0E1A292E592A007DF86A /* SalesmanListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A0E19292E592A007DF86A /* SalesmanListItemView.swift */; };
+		FF9A0E1E292E5F78007DF86A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A0E1D292E5F78007DF86A /* HomeView.swift */; };
+		FF9A0E20292E9301007DF86A /* SalesmanMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A0E1F292E9301007DF86A /* SalesmanMatcher.swift */; };
 		FFCC9443292E4963009B4E00 /* cs_salesmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC9442292E4963009B4E00 /* cs_salesmanApp.swift */; };
-		FFCC9445292E4963009B4E00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC9444292E4963009B4E00 /* ContentView.swift */; };
 		FFCC9447292E4964009B4E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCC9446292E4964009B4E00 /* Assets.xcassets */; };
 		FFCC944A292E4964009B4E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCC9449292E4964009B4E00 /* Preview Assets.xcassets */; };
 		FFCC9454292E4964009B4E00 /* cs_salesmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC9453292E4964009B4E00 /* cs_salesmanTests.swift */; };
 		FFCC945E292E4964009B4E00 /* cs_salesmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC945D292E4964009B4E00 /* cs_salesmanUITests.swift */; };
 		FFCC9460292E4964009B4E00 /* cs_salesmanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC945F292E4964009B4E00 /* cs_salesmanUITestsLaunchTests.swift */; };
+		FFCC9470292E4B1A009B4E00 /* SalesmanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC946F292E4B1A009B4E00 /* SalesmanListView.swift */; };
+		FFCC9473292E4B8B009B4E00 /* SalesmanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC9472292E4B8B009B4E00 /* SalesmanRepository.swift */; };
+		FFCC9476292E4C4B009B4E00 /* Salesman.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC9475292E4C4B009B4E00 /* Salesman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF9A0E16292E54D9007DF86A /* SalesmanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmanListViewModel.swift; sourceTree = "<group>"; };
+		FF9A0E19292E592A007DF86A /* SalesmanListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmanListItemView.swift; sourceTree = "<group>"; };
+		FF9A0E1D292E5F78007DF86A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF9A0E1F292E9301007DF86A /* SalesmanMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmanMatcher.swift; sourceTree = "<group>"; };
 		FFCC943F292E4963009B4E00 /* cs-salesman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs-salesman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCC9442292E4963009B4E00 /* cs_salesmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_salesmanApp.swift; sourceTree = "<group>"; };
-		FFCC9444292E4963009B4E00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFCC9446292E4964009B4E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCC9449292E4964009B4E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFCC944F292E4964009B4E00 /* cs-salesmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs-salesmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,9 @@
 		FFCC9459292E4964009B4E00 /* cs-salesmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs-salesmanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCC945D292E4964009B4E00 /* cs_salesmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_salesmanUITests.swift; sourceTree = "<group>"; };
 		FFCC945F292E4964009B4E00 /* cs_salesmanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_salesmanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFCC946F292E4B1A009B4E00 /* SalesmanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmanListView.swift; sourceTree = "<group>"; };
+		FFCC9472292E4B8B009B4E00 /* SalesmanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmanRepository.swift; sourceTree = "<group>"; };
+		FFCC9475292E4C4B009B4E00 /* Salesman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salesman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF9A0E18292E58BC007DF86A /* SalesmanList */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A0E16292E54D9007DF86A /* SalesmanListViewModel.swift */,
+				FFCC946D292E4A8B009B4E00 /* View */,
+			);
+			path = SalesmanList;
+			sourceTree = "<group>";
+		};
+		FF9A0E1B292E5F5E007DF86A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A0E1C292E5F6B007DF86A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF9A0E1C292E5F6B007DF86A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A0E1D292E5F78007DF86A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FFCC9436292E4962009B4E00 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +131,13 @@
 		FFCC9441292E4963009B4E00 /* cs-salesman */ = {
 			isa = PBXGroup;
 			children = (
+				FFCC9474292E4C35009B4E00 /* Models */,
+				FFCC9471292E4B6D009B4E00 /* Repositories */,
+				FFCC946C292E4A7C009B4E00 /* Screens */,
 				FFCC9442292E4963009B4E00 /* cs_salesmanApp.swift */,
-				FFCC9444292E4963009B4E00 /* ContentView.swift */,
 				FFCC9446292E4964009B4E00 /* Assets.xcassets */,
 				FFCC9448292E4964009B4E00 /* Preview Content */,
+				FF9A0E1F292E9301007DF86A /* SalesmanMatcher.swift */,
 			);
 			path = "cs-salesman";
 			sourceTree = "<group>";
@@ -125,6 +165,40 @@
 				FFCC945F292E4964009B4E00 /* cs_salesmanUITestsLaunchTests.swift */,
 			);
 			path = "cs-salesmanUITests";
+			sourceTree = "<group>";
+		};
+		FFCC946C292E4A7C009B4E00 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A0E1B292E5F5E007DF86A /* Home */,
+				FF9A0E18292E58BC007DF86A /* SalesmanList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FFCC946D292E4A8B009B4E00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC946F292E4B1A009B4E00 /* SalesmanListView.swift */,
+				FF9A0E19292E592A007DF86A /* SalesmanListItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFCC9471292E4B6D009B4E00 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC9472292E4B8B009B4E00 /* SalesmanRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FFCC9474292E4C35009B4E00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC9475292E4C4B009B4E00 /* Salesman.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCC9445292E4963009B4E00 /* ContentView.swift in Sources */,
+				FF9A0E20292E9301007DF86A /* SalesmanMatcher.swift in Sources */,
+				FFCC9473292E4B8B009B4E00 /* SalesmanRepository.swift in Sources */,
+				FF9A0E1E292E5F78007DF86A /* HomeView.swift in Sources */,
+				FF9A0E17292E54D9007DF86A /* SalesmanListViewModel.swift in Sources */,
+				FFCC9476292E4C4B009B4E00 /* Salesman.swift in Sources */,
+				FF9A0E1A292E592A007DF86A /* SalesmanListItemView.swift in Sources */,
+				FFCC9470292E4B1A009B4E00 /* SalesmanListView.swift in Sources */,
 				FFCC9443292E4963009B4E00 /* cs_salesmanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
